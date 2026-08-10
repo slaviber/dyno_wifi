@@ -1,0 +1,55 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../dyno_webgui"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tpl": "latex",
+			"stdio.h": "c",
+			"stdbool.h": "c",
+			"math.h": "c",
+			"esp_bt_main.h": "c",
+			"err.h": "c",
+			"opt.h": "c",
+			"lwipopts.h": "c",
+			"sys_arch.h": "c",
+			"sys.h": "c",
+			"esp_task.h": "c",
+			"string.h": "c",
+			"mdns.h": "c",
+			"esp32_mock.h": "c",
+			"iir_filter_double.h": "c",
+			"array": "c",
+			"string": "c",
+			"string_view": "c",
+			"iir_filter_float.h": "c",
+			"cjson.h": "c",
+			"sens_struct.h": "c",
+			"filter_tables.h": "c",
+			"mcpwm_prelude.h": "c",
+			"mcpwm_timer.h": "c",
+			"esp_vfs.h": "c",
+			"esp_vfs_dev.h": "c",
+			"bitset": "c",
+			"functional": "c",
+			"random": "c",
+			"fstream": "c",
+			"future": "c",
+			"istream": "c",
+			"mutex": "c",
+			"ostream": "c",
+			"sstream": "c",
+			"stop_token": "c",
+			"streambuf": "c",
+			"regex": "c",
+			"typeinfo": "c",
+			"chrono": "c",
+			"limits": "c"
+		}
+	}
+}
