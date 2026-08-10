@@ -1,0 +1,19 @@
+# The math functions somehow don't end up in IRAM which causes crashes
+[mapping:libgcc]
+archive:
+  libgcc.a
+entries:
+#  __divsf3 (noflash)
+  * (noflash)
+
+[mapping:libm]
+archive:
+  libm.a
+entries:
+  * (noflash)
+
+[mapping:libc]
+archive:
+  libc.a
+entries:
+  lib_a-errno (noflash)
