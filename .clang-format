@@ -1,0 +1,5 @@
+ReflowComments:  false
+PenaltyBreakComment: 0
+# CommentPragmas:  '.*'
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
