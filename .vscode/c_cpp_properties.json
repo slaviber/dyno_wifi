@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Esp32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../../esp32/esp-idf-v5.0.2/components/**",
+                "${workspaceFolder}/../../../esp32/esp-idf-v5.0.2/components/newlib/**",
+                "${workspaceFolder}/../../../esp32/esp-idf-v5.0.2/components/wpa_supplicant/**",
+                "${workspaceFolder}/../../../esp32/esp-idf-v5.0.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/",
+                "${workspaceFolder}/../../../esp32/esp-idf-v5.0.2/components/heap/include/",
+                "${workspaceFolder}/managed_components/espressif__mdns/include/"
+            ],
+            "defines": [
+                "portENTER_CRITICAL",
+                "CONFIG_ESP_WIFI_ESPNOW_MAX_ENCRYPT_NUM",
+                "CONFIG_HTTPD_WS_SUPPORT",
+                "__XTENSA__",
+                "LWIP_MDNS_RESPONDER",
+                "SOC_LEDC_SUPPORT_HS_MODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-gcc-x86",
+            "compileCommands": [
+                "${workspaceFolder}/build/compile_commands.json"
+            ]
+        }
+    ],
+    "version": 4
+}
